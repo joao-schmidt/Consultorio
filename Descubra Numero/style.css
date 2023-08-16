@@ -1,0 +1,11 @@
+.oculta{
+    display: none;
+}
+
+.exibe{
+    display: inline;
+}
+
+.italico{
+    font-style: italic;
+}
