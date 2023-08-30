@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Lista Tarefas</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="https://static.wixstatic.com/media/bf56d6_e93da1e8d0354bb4878c4976f3ebcd2e~mv2.png/v1/fill/w_268,h_206,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo-verde.png" alt="">
+            </div>
+            <div class="col-sm8" id="divQuadro">
+                <h1>Lista de Tarefas a Realizar</h1>
+                <form>
+                    <p><label for="inTarefa">Tarefa</label>
+                        <input type="text" class="form-control" id="inTarefa" required autofocus>
+                    </p>
+                    <p>
+                        <input type="submit" class="btn btn-primary" value="Adicionar &#10003;">
+                        <input type="button" class="btn btn-info" value="Selecionar &#10607;" id="btSelecionar">
+                        <input type="button" class="btn btn-danger" value="Retirar Selecionada &#10007;" id="btRetirar">
+                        <input type="button" class="btn btn-success" value="Gravar &#9673;" id="btGravar">
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <span></span>
+    <script src="Listatarefas.js"></script>
+</body>
+</html>

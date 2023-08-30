@@ -1,0 +1,9 @@
+.tarefa-selecionada{
+    color: red;
+    font-style: italic;
+}
+
+.tarefa-normal{
+    color: black;
+
+}
