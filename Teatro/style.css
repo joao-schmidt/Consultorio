@@ -1,0 +1,10 @@
+h1{
+    border-bottom: inset;
+}
+
+figure{
+    display: inline-block;
+    font-size: 0.7rem;
+    margin: 5px;
+}
+
